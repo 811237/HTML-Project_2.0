@@ -1,0 +1,47 @@
+body {
+    background-color: #004225;
+    text-align: center;
+    contain:content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: rgb(206, 235, 240);
+    font-size:34px;
+    letter-spacing: 3px;
+    font-family: Haettenschweiler;
+}
+
+/*Table styling*/
+table {
+    border: 3px solid silver;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th img {
+    width: 250px;
+    height: 175px;
+    border: 3px solid black;
+}
+
+td {
+    color: rgb(16, 134, 125);
+    background-color: azure;
+}
+
+th.dream-car {
+    background-color: cadetblue;
+    font-size: 40px;
+}
+
+td.dream-car {
+    color: rgb(30, 32, 32);
+    background-color: cadetblue;
+}
+/*Table styling END*/
+
+.links {
+    background-color: aliceblue;
+}

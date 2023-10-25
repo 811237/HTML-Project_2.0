@@ -5,6 +5,13 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body > hr {
+    height: 5px;
+    background-color: aliceblue;
+    margin: 2% auto;
+    max-width: 986px;
+}
+
 header {
     text-align: center;
     color: rgb(206, 235, 240);
@@ -20,6 +27,10 @@ table {
     margin-right: auto;
 }
 
+th {
+    background-color: white;
+}
+
 th img {
     width: 250px;
     height: 175px;
@@ -31,6 +42,32 @@ td {
     background-color: azure;
 }
 
+td hr {
+    height: .8px;
+    background-color: black;
+    border-color: black;
+}
+
+td.car-data-td {
+    text-align: left;
+}
+
+.car-title {
+    font-style: italic;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(12, 87, 90);
+}
+
+.car-data {
+    font-size: 18.4px;
+    font-family: fantasy;
+    letter-spacing: .5px;
+    color: rgb(21, 119, 122);
+    margin-left: 5px;
+}
+
 th.dream-car {
     background-color: cadetblue;
     font-size: 40px;
@@ -39,9 +76,29 @@ th.dream-car {
 td.dream-car {
     color: rgb(30, 32, 32);
     background-color: cadetblue;
+    text-align: left;
+}
+
+td.dream-car .car-data {
+    color: rgb(30, 32, 32);
+}
+
+td.dream-car .car-title {
+    color: rgb(30, 32, 32);
 }
 /*Table styling END*/
 
 .links {
     background-color: aliceblue;
+}
+
+p {
+    color: rgb(10, 38, 63);
+    margin-top: 0px;
+}
+
+footer hr {
+    background-color: rgb(61, 61, 211);
+    height: 3px;
+    max-width: 986px;
 }
